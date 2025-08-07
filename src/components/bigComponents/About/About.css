@@ -119,8 +119,6 @@
   top: 14px;
   left: 70px;
   z-index: -11;
-  /* top: 224px;
-  left: 144px; */
 }
 
 .heavyWaves {
@@ -128,7 +126,6 @@
   height: 31px;
   position: absolute;
   top: 486px;
-  /* left: 1288px; */
   right: 0;
 }
 
@@ -138,5 +135,4 @@
   position: absolute;
   top: 464.26px;
   left: 0;
-  /* border-width: 2.33px; */
 }
