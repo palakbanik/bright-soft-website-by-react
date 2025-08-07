@@ -1,0 +1,10 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  background: #e67e00;
+  padding: 10px 20px;
+  border-radius: 100px;
+  cursor: pointer;
+}
