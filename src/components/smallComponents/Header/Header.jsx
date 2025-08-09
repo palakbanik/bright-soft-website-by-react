@@ -16,7 +16,7 @@ export default function Header() {
       <nav className="headerContainer">
         <div className="logo">
           <a href="/">
-            <img src="../../../public/logo.png" alt="logo" />
+            <img src="/logo.png" alt="logo" />
           </a>
         </div>
 

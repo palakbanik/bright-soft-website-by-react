@@ -1,25 +1,18 @@
 import "./About.css";
+import { GoArrowUpRight } from "react-icons/go";
 
 export default function About() {
   return (
     <>
       <section className="aboutSection" id="about">
-        <img
-          src="../../../../public/heavyWaves.png"
-          alt=""
-          className="heavyWaves"
-        />
+        <img src="/heavyWaves.png" alt="" className="heavyWaves" />
 
-        <img
-          src="../../../../public/spiral.png"
-          alt="spiral"
-          className="spiral"
-        />
+        <img src="/spiral.png" alt="spiral" className="spiral" />
         <div className="about">
           <div className="blurCircle"></div>
           <div className="imagePart">
             <img
-              src="../../../../public/aboutSectionImage.png"
+              src="/aboutSectionImage.png"
               alt="about image"
               className="aboutImage"
             />
@@ -64,6 +57,16 @@ export default function About() {
               <div className="awards">
                 <h1>10+%</h1>
                 <p className="para">Industry Awards</p>
+              </div>
+            </div>
+
+            <div className="buttonPart">
+              <button className="btnAbout">
+                <p>ABOUT US</p>
+              </button>
+
+              <div className="arrowBtn">
+                <GoArrowUpRight className="arrow" />
               </div>
             </div>
           </div>
