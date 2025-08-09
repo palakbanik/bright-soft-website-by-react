@@ -1,5 +1,5 @@
+import TextWithArrowBtn from "../../smallComponents/TextWithArrowBtn/TextWithArrowBtn";
 import "./About.css";
-import { GoArrowUpRight } from "react-icons/go";
 
 export default function About() {
   return (
@@ -60,15 +60,7 @@ export default function About() {
               </div>
             </div>
 
-            <div className="buttonPart">
-              <button className="btnAbout">
-                <p>ABOUT US</p>
-              </button>
-
-              <div className="arrowBtn">
-                <GoArrowUpRight className="arrow" />
-              </div>
-            </div>
+            <TextWithArrowBtn text="ABOUT US" />
           </div>
         </div>
       </section>

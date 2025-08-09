@@ -1,0 +1,31 @@
+.buttonPart .btnAbout {
+  width: 103px;
+  height: 46px;
+  gap: 7.77px;
+  opacity: 1;
+  padding: 16px 20px;
+  border-radius: 77px;
+  background: rgba(242, 107, 1, 0.15);
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--primaryBgColor);
+  display: flex;
+  justify-content: start;
+}
+
+.arrowBtn {
+  width: 40px;
+  height: 40px;
+  background: var(--primaryBgColor);
+  border-radius: 50%;
+  position: relative;
+}
+
+.arrowBtn .arrow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--whiteBgColor);
+  font-size: 22px;
+}

@@ -1,0 +1,79 @@
+.productCard {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.productCard .card {
+  width: 368px;
+  height: 493px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  border: 1px solid #0295fb42;
+  background: #f0f9ff;
+  border-width: 1px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card .img img {
+  width: 368px;
+  height: 226px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.frame img {
+  width: 251px;
+  height: 64px;
+  margin: 20px 58px 41px;
+}
+
+.frame .frameText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 328px;
+  height: 113px;
+  gap: 10px;
+  padding: 0 15px;
+}
+
+.frameText h3 {
+  font-size: 20.75px;
+  font-weight: 600;
+  line-height: 31px;
+  text-align: start;
+}
+
+.frame .frameText .arrowIcon {
+  width: 40px;
+  height: 40px;
+  gap: 13px;
+  border-radius: 130px;
+  border-width: 1.3px;
+  color: var(--primaryBgColor);
+  padding: 13px;
+  position: relative;
+  cursor: pointer;
+}
+
+.arrowIcon .iconArrow {
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

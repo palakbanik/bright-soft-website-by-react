@@ -5,3 +5,15 @@
   padding-bottom: 60px;
   background: greenyellow;
 }
+
+.products {
+  width: 1144px;
+  height: 493px;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 41px auto;
+  background-color: white;
+  gap: 20px;
+}
